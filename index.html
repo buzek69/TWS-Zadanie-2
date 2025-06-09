@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/logo_circular.png" type="image/png">      <!--obrazok na karte-->
+    <link rel="icon" href="images/icon.png" type="image/png">      <!--obrazok na karte-->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!--poppins font-->
     <link rel="stylesheet" href="reset.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
@@ -30,12 +30,12 @@
                 </div>
             </div>
         </div>
-        <div class="right">
+
             <div class="logo">
-            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </div>
  
-        </div>
+
     </header>
 
    
@@ -53,16 +53,16 @@
 
         <div class="slider">
             <div class="slides" id="slides">
-                <img src="images/slider" alt="Slide 1">
-                <img src="https://picsum.photos/id/1016/1200/600" alt="Slide 2">
-                <img src="https://picsum.photos/id/1018/1200/600" alt="Slide 3">
+                <img src="images/slider/extenzivna_zelena_strecha.jpg" alt="Slide 1">
+                <img src="images/slider/zelena_strecha.jpg" alt="Slide 2">
+                <img src="images/slider/fi_strecha.jpg" alt="Slide 3">
             </div>    
         </div>
 
     </div>
 <div class="bigcontainer">
     <div class="textblock" id="viac">  <!--INTRODUCTION-->
-        <h2>Nechajte si zatepliť svoju strechu modernými a krásnymi spôsobmi. Špecializujeme sa na realizáciu zelených striech a fúkanú izoláciu, ktoré prinášajú úsporu energie a estetickú hodnotu vášmu domu.</h2>
+        <h3>Nechajte si zatepliť svoju strechu modernými a krásnymi spôsobmi. Špecializujeme sa na realizáciu zelených striech a fúkanú izoláciu, ktoré prinášajú úsporu energie a estetickú hodnotu vášmu domu.</h3>
         <div class="link-buttons">
             <a href="#strechy">Zelené strechy</a>
             <a href="#izolacia">Fúkané izolácie</a>
@@ -90,6 +90,7 @@
 <div class="bigcontainer strechy">       <!--ZELENE STRECHY PART-->
 
             <div class="textblock">
+                <h2 class="textleft">TYPY ZELENÝCH STRIECH</h2>
                 <h3>Zelené strechy môžu mať rôzne formy podľa vašich predstáv a rozpočtu.Vyberte si variant, ktorý najlepšie vyhovuje vášmu domu alebo projektu.</h3>
             </div>
                 
@@ -98,41 +99,43 @@
         
     <div class="card-container">
         <div class="card">
-            <img src="images/item-5.jpg" alt="Sample Image">
+            <img src="images/typy zs/kvetinac.jpg" alt="Sample Image">
             <div class="card-content">
             <h3> Klasické kvetináče</h3>
             <p>Modulárne riešenie so štvorcovými kvetináčmi. Rýchla montáž, možnosť výmeny jednotlivých častí a jednoduchá údržba.</p>
-            <button onclick="openOverlay('')">More Info</button>
+            <!--<button onclick="openOverlay('')">More Info</button>-->
             </div>
         </div>
 
         <div class="card">
-            <img src="images/item-5.jpg" alt="Sample Image">
+            <img src="images/typy zs/rozchodníkový-koberec.jpg" alt="Sample Image">
             <div class="card-content">
             <h3>Rozchodníkový Koberec</h3>
             <p>Rýchly spôsob, ako získať hotovú zelenú strechu s okamžitým efektom. Položíme predpestovaný trávnatý koberec, ktorý okamžite zlepší vzhľad aj tepelnú izoláciu.</p>
-            <button onclick="openOverlay('More info about Carpet Roof')">More Info</button>
+            <!--<button onclick="openOverlay('More info about Carpet Roof')">More Info</button>-->
             </div>
         </div>
 
         <div class="card">
-            <img src="images/item-5.jpg" alt="Sample Image">
+            <img src="images/typy zs/volný výsev.jpg" alt="Sample Image">
             <div class="card-content">
             <h3>Voľná výsadba</h3>
             <p>Najprirodzenejší a cenovo najdostupnejší spôsob. Zasypeme strechu substrátom a vysejeme vhodné rastliny – vývoj je pomalší, ale výsledok prirodzenejší a ekologickejší.</p>
-            <button onclick="openOverlay('More info about Seeded Roof')">More Info</button>
+            <!--<button onclick="openOverlay('More info about Seeded Roof')">More Info</button>-->
             </div>
 
 
 
         </div>
 
+        <!--    OVERLAY - NOT USED
         <div class="overlay" id="overlay">
             <div class="overlay-content">
                 <button onclick="closeOverlay()">✖</button>
                 <p id="overlay-text">Detailed info here...</p>
             </div>
         </div>
+        -->
     </div>
 
         <div class="splitter-small"><div class="splitter-line"></div></div>
@@ -169,20 +172,20 @@
 
 <div id="izolacia" class="startimg izolaciaimg">     <!--image here-->
     <div class="slider-text">
-        <h1>Fúkaná izolácia</h1>
+        <h1>FÚKANÁ IZOLÁCIA</h1>
         <h2>Moderné zateplenie bez veľkých zásahov - Ideálne riešenie pre rekonštrukcie aj novostavby</h2>
     </div>
 </div>
 <div class="bigcontainer izolacia">     <!--FUKANA IZOLACIA PART-->
 
         <div class="textblock">
-            <h2>Izolujeme pomocou dvoch typov vaty:</h2>
+            <h2>IZOLUJEME POMOCOU DVOCH TYPOV VATY:</h2>
         </div>    
 
         <div class="card-container">
 
             <div class="card">
-                <img src="images/item-5.jpg" alt="Sample Image">
+                <img src="images/typy fi/celuloza.jpg" alt="Sample Image">
                 <div class="card-content">
                 <h3>Celuloza</h3>
                 <p>ekologická, výborná tepelná aj zvuková izolácia</p>
@@ -191,7 +194,7 @@
             </div>
 
             <div class="card">
-                <img src="images/item-5.jpg" alt="Sample Image">
+                <img src="images/typy fi/mineralna vlna.jpg" alt="Sample Image">
                 <div class="card-content">
                 <h3>Minerálna vlna</h3>
                 <p>stabilná, nehorľavá a trvácna</p>
@@ -209,13 +212,13 @@
 
         
         <div class="listblock">
-            <h2>Kam izoláciu aplikujeme:</h2>
+            <h2>KAM IZOLÁCIU APLIKUJEME:</h2>
             <h3>Stropy, podkrovia, šikmé strechy</h3>
             <h3>Nízke a uzavreté pôjdy, ťažko dostupné miesta</h3>
             <h3>Rekonštrukcie aj novostavby</h3>
         </div>
         <div class="textblock">
-            <h2>Proces a technológie:</h2>
+            <h2>PROCES A TECHNOLÓGIE:</h2>
             <p>Pri rekonštrukciách sa vytvoria malé otvory (alebo využijeme odvetrávacie diery), cez ktoré pomocou hadice fúkame izoláciu do dutín do zvyčajne do výšky 30-40cm. Pri novostavbách aplikujeme izoláciu priamo, kým je pôjd otvorený. Dutiny si sami pripravíme a po aplikácii ich starostlivo zatvoríme.</p>
         </div>
 
@@ -240,7 +243,7 @@
                 <div class="contact-container"><span  class="icon material-symbols-outlined">location_on</span><p>Poliakovce 53</p></div>
             </div>
         </div>
-        <div class="vertical-line"></div>
+        <div class="vertical-line hideat850"></div>
 
         <div class="item-container">
             <div class="links">
@@ -248,15 +251,15 @@
                 <div class="link-container"><a href="gallery.html"><span  class="icon material-symbols-outlined">image</span>Realizácie</a></div>
                 <div class="link-container"><a href="about_us.html"><span  class="icon material-symbols-outlined">contact_page</span>O nás</a></div>
                 <div class="link-container"><a href="udaje.html"><span  class="icon material-symbols-outlined">source</span>Udaje</a></div>
-                <div class="link-container"><a href="contact.html"><span  class="icon material-symbols-outlined">engineering</span>Kontakt</a></div>
+                <div class="link-container"><a href="contact.html"><span  class="icon material-symbols-outlined">call</span>Kontakt</a></div>
                 
             </div>
         </div>
 
-        <div class="vertical-line"></div>
+        <div class="vertical-line hideat850"></div>
 
 
-        <div class="item-container">
+        <div class="item-container hideat850">
             <div class="logo">
                 <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             </div>
